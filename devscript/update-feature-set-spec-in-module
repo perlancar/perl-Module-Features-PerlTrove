@@ -16,7 +16,7 @@ open my $fh, "<", $path or die "Can't open $path: $!";
 
 my %FEATURES_DEF = (
     v => 1,
-    summary => 'Python trove classifiers',
+    summary => 'Perl trove classifiers',
     features => {},
 );
 while (my $cl = <$fh>) {
@@ -38,7 +38,7 @@ while (my $cl = <$fh>) {
     push @{ $FEATURES_DEF{features}{$fname}{schema}[1]{of}[1][1]{of}[1]{in} }, $fval;
 }
 
-$path = "$Bin/../lib/Module/Features/PythonTrove.pm";
+$path = "$Bin/../lib/Module/Features/PerlTrove.pm";
 my $content = read_text($path);
 my $res = insert_fragment(text=>$content, id=>'def', payload=>'%FEATURES_DEF = %{ ' . Data::Dump::dump(\%FEATURES_DEF) . " };\n\n");
 die "Cannot insert fragment: $res->[0] - $res->[1]" unless $res->[0] == 200;
