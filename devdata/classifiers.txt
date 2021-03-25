@@ -58,109 +58,45 @@ Environment :: X11 Applications :: GTK
 Environment :: X11 Applications :: Gnome
 Environment :: X11 Applications :: KDE
 Environment :: X11 Applications :: Qt
-Framework :: AWS CDK
-Framework :: AWS CDK :: 1
-Framework :: AiiDA
-Framework :: Ansible
-Framework :: AsyncIO
-Framework :: BEAT
-Framework :: BFG
-Framework :: Bob
-Framework :: Bottle
-Framework :: Buildout
-Framework :: Buildout :: Extension
-Framework :: Buildout :: Recipe
-Framework :: CastleCMS
-Framework :: CastleCMS :: Theme
-Framework :: Chandler
-Framework :: CherryPy
-Framework :: CubicWeb
-Framework :: Dash
-Framework :: Django
-Framework :: Django :: 1.4
-Framework :: Django :: 1.5
-Framework :: Django :: 1.6
-Framework :: Django :: 1.7
-Framework :: Django :: 1.8
-Framework :: Django :: 1.9
-Framework :: Django :: 1.10
-Framework :: Django :: 1.11
-Framework :: Django :: 2.0
-Framework :: Django :: 2.1
-Framework :: Django :: 2.2
-Framework :: Django :: 3.0
-Framework :: Django :: 3.1
-Framework :: Django :: 3.2
-Framework :: Django CMS
-Framework :: Django CMS :: 3.4
-Framework :: Django CMS :: 3.5
-Framework :: Django CMS :: 3.6
-Framework :: Django CMS :: 3.7
-Framework :: Django CMS :: 3.8
-Framework :: Flake8
-Framework :: Flask
-Framework :: Hypothesis
-Framework :: IDLE
-Framework :: IPython
-Framework :: Jupyter
-Framework :: Kedro
-Framework :: Lektor
-Framework :: Masonite
-Framework :: Matplotlib
-Framework :: Nengo
-Framework :: Odoo
-Framework :: Opps
-Framework :: Paste
-Framework :: Pelican
-Framework :: Pelican :: Plugins
-Framework :: Pelican :: Themes
-Framework :: Plone
-Framework :: Plone :: 3.2
-Framework :: Plone :: 3.3
-Framework :: Plone :: 4.0
-Framework :: Plone :: 4.1
-Framework :: Plone :: 4.2
-Framework :: Plone :: 4.3
-Framework :: Plone :: 5.0
-Framework :: Plone :: 5.1
-Framework :: Plone :: 5.2
-Framework :: Plone :: 5.3
-Framework :: Plone :: 6.0
-Framework :: Plone :: Addon
-Framework :: Plone :: Core
-Framework :: Plone :: Theme
-Framework :: Pylons
-Framework :: Pyramid
-Framework :: Pytest
-Framework :: Review Board
-Framework :: Robot Framework
-Framework :: Robot Framework :: Library
-Framework :: Robot Framework :: Tool
-Framework :: Scrapy
-Framework :: Setuptools Plugin
-Framework :: Sphinx
-Framework :: Sphinx :: Extension
-Framework :: Sphinx :: Theme
-Framework :: Trac
-Framework :: Trio
-Framework :: Tryton
-Framework :: TurboGears
-Framework :: TurboGears :: Applications
-Framework :: TurboGears :: Widgets
-Framework :: Twisted
-Framework :: Wagtail
-Framework :: Wagtail :: 1
-Framework :: Wagtail :: 2
-Framework :: ZODB
-Framework :: Zope
-Framework :: Zope2
-Framework :: Zope3
-Framework :: Zope :: 2
-Framework :: Zope :: 3
-Framework :: Zope :: 4
-Framework :: Zope :: 5
-Framework :: napari
-Framework :: tox
+Framework :: AnyEvent
+Framework :: App::Cmd
+Framework :: Catalyst
+Framework :: CGI::Application
+Framework :: CHI
+Framework :: Dancer
+Framework :: Dancer2
+Framework :: Data::Printer
+Framework :: DateTime
+Framework :: DBI
+Framework :: DBIx::Class
+Framework :: Dist::Zilla
+Framework :: Gantry
+Framework :: HTML::FormFu
+Framework :: HTML::FormHandler
+Framework :: Interchange
+Framework :: IO::Async
+Framework :: Jifty
+Framework :: Log::Any
+Framework :: Log::Contextual
+Framework :: Log::Dispatch
+Framework :: Log::ger
+Framework :: Log::Log4perl
+Framework :: Mason
+Framework :: Maypole
+Framework :: Minilla
+Framework :: Mojolicious
+Framework :: Moo
+Framework :: Moose
+Framework :: Params::Validate
+Framework :: PDL
+Framework :: Perinci::CmdLine
+Framework :: POE
+Framework :: Sah
+Framework :: ShipIt
+Framework :: Specio
+Framework :: Template::Toolkit
+Framework :: Test2
+Framework :: Type::Tiny
 Intended Audience :: Customer Service
 Intended Audience :: Developers
 Intended Audience :: Education
